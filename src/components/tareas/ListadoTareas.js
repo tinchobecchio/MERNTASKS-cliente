@@ -16,12 +16,7 @@ const ListadoTareas = () => {
     const [proyectoActual] = proyecto
 
 
-    const tareasProyecto = [
-        {nombre: 'Elegir plataforma', estado: true},
-        {nombre: 'Elegir colores', estado: false},
-        {nombre: 'Elegir plataformas de pago', estado: false},
-        {nombre: 'Elegir hosting', estado: true},
-    ]
+    const tareasProyecto = []
 
     // Elimina un proyecto
     const onClickEliminar = () => {
