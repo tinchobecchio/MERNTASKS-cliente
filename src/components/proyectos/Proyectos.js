@@ -1,4 +1,5 @@
 import Sidebar from "../layout/Sidebar";
+import Barra from "../layout/Barra";
 
 const Proyectos = () => {
     return ( 
@@ -6,6 +7,8 @@ const Proyectos = () => {
             <Sidebar />
 
             <div className="seccion-principal">
+                <Barra />
+                
                 <main>
                     <div className="contenedor-tareas">
 
