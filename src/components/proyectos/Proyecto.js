@@ -8,9 +8,9 @@ const Proyecto = ({proyecto}) => {
     const proyectosContext = useContext(proyectoContext)
     const { proyectoActual } = proyectosContext
 
-        // Obtener el state de proyectos
-        const tareasContext = useContext(tareaContext)
-        const { obtenerTareas } = tareasContext
+    // Obtener el state de proyectos
+    const tareasContext = useContext(tareaContext)
+    const { obtenerTareas } = tareasContext
     
     // Funcion para agregar el proyecto actual
     const seleccionarProyecto = id => {
