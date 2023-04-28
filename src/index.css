@@ -291,7 +291,9 @@ aside  {
 .form-usuario {
     background-color: var(--gris2);
     height: 100vh;
-    min-height: 800px;
+    /* min-height: 800px; */
+    min-height: 100vh;
+    /* Lo cambie porque me aparecia para scrollear en vez de centrado */
     display: flex;
     align-items: center;
     justify-content: center;
