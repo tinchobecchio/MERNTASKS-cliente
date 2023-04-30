@@ -5,7 +5,7 @@ import AuthContext from '../../context/autenticacion/authContext'
 import {useNavigate} from "react-router-dom";
 
 
-const NuevaCuenta = (props) => {
+const NuevaCuenta = () => {
 
     //extraer los valores del context
     const alertaContext = useContext(AlertaContext)
