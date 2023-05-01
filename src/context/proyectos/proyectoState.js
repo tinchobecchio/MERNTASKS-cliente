@@ -8,7 +8,7 @@ import {
     PROYECTO_ERROR,
     VALIDAR_FORMULARIO,
     PROYECTO_ACTUAL,
-    ELEMINAR_PROYECTO
+    ELIMINAR_PROYECTO
 } from "../../types";
 import clienteAxios from '../../config/axios'
 
@@ -104,7 +104,7 @@ const ProyectoState = props => {
             await clienteAxios.delete(`/api/proyectos/${proyectoId}`)
 
             dispatch({
-                type: ELEMINAR_PROYECTO,
+                type: ELIMINAR_PROYECTO,
                 payload: proyectoId
             })
         } catch (error) {

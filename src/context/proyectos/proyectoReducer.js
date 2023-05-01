@@ -5,7 +5,7 @@ import {
     PROYECTO_ERROR,
     VALIDAR_FORMULARIO,
     PROYECTO_ACTUAL,
-    ELEMINAR_PROYECTO
+    ELIMINAR_PROYECTO
 } from "../../types";
 
 
@@ -39,7 +39,7 @@ const reducer = (state, action) => {
                 ...state,
                 proyecto: state.proyectos.filter(proyecto => proyecto._id === action.payload )
             }
-        case ELEMINAR_PROYECTO:
+        case ELIMINAR_PROYECTO:
             return {
                 ...state,
                 proyectos: state.proyectos.filter(proyecto => proyecto._id !== action.payload ),
